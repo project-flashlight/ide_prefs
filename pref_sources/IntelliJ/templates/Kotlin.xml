@@ -1,0 +1,12 @@
+<templateSet group="Kotlin">
+  <template name="should" value="@Test&#10;fun should_$1$_when$2$() {&#10;    // given&#10;    $3$&#10;    // when&#10;    $4$&#10;    // then&#10;    $5$&#10;}" description="Add a test method" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

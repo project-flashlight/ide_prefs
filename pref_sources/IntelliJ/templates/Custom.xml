@@ -1,0 +1,18 @@
+<templateSet group="Custom">
+  <template name="should" value="@Test&#10;public void should_$DO$_when$SOMETHING$2() {&#10;    // given&#10;    $1$&#10;            &#10;    // when&#10;    $2$&#10;            &#10;    // then&#10;    $3$&#10;}" description="Create a test" toReformat="false" toShortenFQNames="true">
+    <variable name="DO" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SOMETHING" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="setup" value="@Before&#10;public void setUp() {&#10;    MockitoAnnotations.initMocks(this);&#10;    $cursor$&#10;}" description="Create a setup method for tests" toReformat="false" toShortenFQNames="true">
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
