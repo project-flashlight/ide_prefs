@@ -3,11 +3,6 @@
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
     <variable name="todo" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="COMPLETION" value="true" />
       <option name="KOTLIN" value="true" />
     </context>
   </template>
